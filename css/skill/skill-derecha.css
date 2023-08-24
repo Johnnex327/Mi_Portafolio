@@ -1,0 +1,21 @@
+.skill__derecha{
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   color: aliceblue;
+   text-align: center;
+   justify-content: center;
+}
+
+
+@media (max-width:1600px) {
+   .skill__derecha{
+      width: 100%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+   }
+
+   #parrafo{
+      display: none;
+   }
+}

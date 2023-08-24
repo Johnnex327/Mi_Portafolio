@@ -1,0 +1,85 @@
+.container__row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+
+.container__row > div > h3 {
+  text-align: center;
+  opacity: 1;
+  color: var(--cardColor);
+}
+
+/* .container__row div:hover {
+
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  animation-name: ventanaFlotando;
+  animation-duration: 3s;
+  animation-delay: .1s;
+  animation-iteration-count: infinite;
+
+  .html {
+    fill: rgb(255, 94, 0);
+    transition: all .3s ease-in;
+  }
+
+  .css {
+    fill: rgb(0, 162, 255);
+  }
+
+  .javascript {
+    fill: rgb(236, 215, 24);
+    text-align: center;
+  }
+
+  .react {
+    fill: rgb(3, 87, 156);
+  }
+
+  .database {
+    fill: rgb(0, 139, 253);
+  }
+}
+
+@keyframes ventanaFlotando {
+  0%{
+      transform: translateY(0);
+  }
+
+  50%{
+      transform: translateY(-5px);
+  }
+
+  100%{
+      transform: translateY(0);
+  }
+} */
+
+.container__row--formacion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.container__row--formacion div > img {
+  display: flex;
+  width: 120px;
+  height: 100px;
+  margin: 1rem 1.5rem 1rem 1.5rem;
+}
+
+
+@media (max-width:1600px) {
+  .container__row{
+    
+    width: 100%;
+    
+  }
+}

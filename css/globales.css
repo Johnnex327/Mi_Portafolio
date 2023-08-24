@@ -1,0 +1,12 @@
+.separador{
+    margin: 4rem;
+}
+
+
+
+.elevarImagenY:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .35s ease-in;
+    
+}

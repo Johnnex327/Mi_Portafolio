@@ -1,0 +1,38 @@
+@import url(encabezado-logo.css);
+@import url(encabezado-navegacion.css);
+@import url(encabezado-container.css);
+@import url(encabezado-menuBurguer.css);
+
+.encabezado{
+    
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/banner.jpg"); */
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+@media (min-width:900px) {
+    .active{
+        background-color: var(--navBarColorScrollDown);
+        position: fixed;
+        transition: all 1s ease;
+        width: 100%;
+        z-index: 1;
+        box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    }
+    
+    .active h2{
+        color: var(--titulosNavBarScrollDown);
+    }
+    
+    .active > nav > ul > li > a{
+        color: var(--titulosNavBarScrollDown);
+    }
+}

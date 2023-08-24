@@ -1,0 +1,15 @@
+@import url(ventanaMac-botones.css);
+@import url(ventanaMac-titulo.css);
+@import url(ventanaMac-parrafo.css);
+@import url(ventanaMac-contenido.css);
+
+.ventanaMac{
+    background-color: rgba(0, 0, 0, .7);
+    width: 50%;
+    height: 30rem;
+    color: aliceblue;
+    padding: 1.5rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    margin-top: 10%;
+}

@@ -1,0 +1,74 @@
+@import url(encabezado/encabezado.css);
+@import url(banner/banner.css);
+@import url(VentanaMac/ventanaMac.css);
+@import url(botones/botones.css);
+@import url(skills/skills.css);
+@import url(formacion/formacion.css);
+@import url(experiencia/experiencia.css);
+@import url(contacto/contacto.css);
+@import url(icono/icono.css);
+@import url(footer/footer.css);
+@import url(informacion/informacion.css);
+@import url(card/card.css);
+@import url(boton/boton.css);
+@import url(globales.css);
+@import url(skill/skill.css);
+
+
+
+:root{
+    --fuente: 'Poppins', sans-serif;
+
+    --primary: #ffffff;
+    --secondary: #1f2028;
+    
+    /* color titulo de skilss, hobbies, formacion academica, experiencia  */
+    --titulos: #030000;
+
+    /* background-color de navBar al hacer scrollDown */
+
+    /* Color de background pagina */
+    --gradiente: linear-gradient(
+        210.6deg,
+        rgb(236, 245, 255) 50.2%,
+        rgb(238, 248, 255) 50.2%,
+        rgb(234, 246, 255) 55%
+      );
+
+    /* Color titulo de logo, <a> de los navBar, y titulo de ventana Mac */
+    --logoAndNavBar: #082B43;
+    /* color de navbar */
+    --navBarColor: #0c0c0c;
+    --navBarColorScrollDown: rgb(236, 245, 255);
+
+
+    --bottonColor: rgb(20, 193, 206);
+    --bottonTextColor: #f8fcff;
+
+    /* colores de tarjetas de tecnologias */
+    --cardBackground: rgb(255, 255, 255);
+    --cardColor: #1f2028;
+    --cardBackground-secondary: #082B43;
+
+
+    /* --tercery: #1f2028;
+    --cuarternay: #1f2028;
+    --titulos: aliceblue; */
+    
+}
+
+*{
+   
+}
+
+
+body{
+    font-family: var(--fuente);
+    background: var(--gradiente);
+}
+
+footer{
+    background-color: #1f2028;
+    color: var(--primary);
+}
+

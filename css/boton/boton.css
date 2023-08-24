@@ -1,0 +1,24 @@
+/* .boton{
+    display: flex;
+    width: 170px;
+    height: 40px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.boton{
+    background-color: var(--bottonColor);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: var(--bottonTextColor);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: fit-content;
+    height: fit-content;
+}

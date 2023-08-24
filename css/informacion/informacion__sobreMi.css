@@ -1,0 +1,21 @@
+.informacion__sobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+
+.informacion__sobreMi img{
+    border-radius: 100px;
+}
+
+
+@media (min-width:1000px) {
+    .informacion__sobreMi{
+        display: none;
+    }
+
+}

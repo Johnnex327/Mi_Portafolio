@@ -1,0 +1,32 @@
+.informacion__ladoDerecho{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
+.informacion__ladoDerecho img{
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+@media (max-width:1600px) {
+    .informacion__ladoDerecho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacion__ladoDerecho img{
+       width: 50%;
+       height: 50%;
+       
+    }
+}

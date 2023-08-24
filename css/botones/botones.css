@@ -1,0 +1,29 @@
+.botones{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(15, 14, 14);
+    padding: 1rem;
+    align-items: center;
+    height: 1rem;
+}
+
+.botones__rojo{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.botones__amarillo{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(20, 201, 207);
+    border-radius: 100%;
+}
+
+.botones__verde{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(12, 189, 12);
+    border-radius: 100%;
+}

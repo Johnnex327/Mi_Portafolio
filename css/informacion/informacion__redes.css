@@ -1,0 +1,38 @@
+.informacion__redes{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2rem;
+    
+}
+
+.informacion__redes p{
+    font-size: .9rem;
+}
+
+
+.informacion__redes > svg{
+    fill: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+}
+
+.informacion__redes > svg:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .2s ease-in;
+}
+
+
+.informacion__redes--linkedin:hover{
+    fill: rgb(17, 204, 117);
+    
+}
+.informacion__redes--instagram:hover{
+    fill: rgb(17, 204, 117);
+}
+.informacion__redes--github:hover{
+    fill: rgb(17, 204, 117);
+}
+.informacion__redes--facebook:hover{
+    fill: rgb(17, 204, 117);
+}

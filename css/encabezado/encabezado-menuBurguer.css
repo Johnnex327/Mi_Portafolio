@@ -1,0 +1,28 @@
+
+
+.encabezado__menuBurguer img{
+    width: 400px;
+    height: 400px;
+}
+
+.encabezado__menuBurguer:hover{
+    cursor: pointer;
+}
+
+.ocultar{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .encabezado__menuBurguer{
+       
+    }
+}
+
+
+@media (min-width:1000px) {
+    .encabezado__menuBurguer{
+       display: none;
+    }
+}
+

@@ -1,0 +1,30 @@
+@import url(informacion__ladoDerecho.css);
+@import url(informacion__ladoIzquierda.css);
+@import url(informacion__redes.css);
+@import url(informacion__sobreMi.css);
+
+.informacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media (max-width:1600px) {
+    .informacion{
+        
+        flex-direction: column;
+       
+    }
+}
+
+@media (max-width:1000px) {
+    .informacion{
+        padding-top: 1rem;
+    }
+
+}
+

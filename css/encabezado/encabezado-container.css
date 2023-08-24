@@ -1,0 +1,30 @@
+
+
+.encabezado__container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--logoAndNavBar);
+    padding: 1.25rem;
+}
+
+.encabezado__container h2{
+    font-size: 3rem;
+    
+}
+
+.encabezado__container > nav > ul > li > a{
+    
+    text-transform: uppercase;
+}
+
+.ocultar{
+    display: none;
+
+}
+
+
+
+
+
