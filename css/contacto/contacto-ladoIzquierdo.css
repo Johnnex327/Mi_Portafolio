@@ -5,7 +5,7 @@
 }
 
 .contacto__ladoIzquierdo img{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/contacto.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://global-uploads.webflow.com/627cdcca8bc0d22df9b2672f/638ed02d4f892cc40de57f1c_Sourcing%20Developer%20Candidates%20email%20template-p-1600.webp");
     background-size: cover;
     width: 100%;
     height: 100%;
